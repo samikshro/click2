@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D85015D2414B6EBF773E9DA /* Pods_Click2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25031C82A23C56AB0ED2F60A /* Pods_Click2.framework */; };
+		E54DA70922ADCBD500D4B36B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586FCD522ADA2A80010F03E /* LoginViewController.swift */; };
+		E57B969822B88B780041BCA6 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57B969722B88B780041BCA6 /* MenuController.swift */; };
+		E57B969C22B947250041BCA6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57B969B22B947250041BCA6 /* Protocols.swift */; };
 		E586FCC422ADA26C0010F03E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586FCC322ADA26C0010F03E /* AppDelegate.swift */; };
 		E586FCC622ADA26C0010F03E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586FCC522ADA26C0010F03E /* ViewController.swift */; };
-		E586FCC922ADA26C0010F03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E586FCC722ADA26C0010F03E /* Main.storyboard */; };
 		E586FCCB22ADA26D0010F03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E586FCCA22ADA26D0010F03E /* Assets.xcassets */; };
 		E586FCCE22ADA26D0010F03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E586FCCC22ADA26D0010F03E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10AA92A397EC2DCB1C548FA2 /* Pods-Click2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Click2.release.xcconfig"; path = "Target Support Files/Pods-Click2/Pods-Click2.release.xcconfig"; sourceTree = "<group>"; };
+		1319C4E6B82A9710944C5EDA /* Pods-Click2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Click2.debug.xcconfig"; path = "Target Support Files/Pods-Click2/Pods-Click2.debug.xcconfig"; sourceTree = "<group>"; };
+		25031C82A23C56AB0ED2F60A /* Pods_Click2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Click2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57B969722B88B780041BCA6 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		E57B969B22B947250041BCA6 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		E586FCC022ADA26C0010F03E /* Click2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Click2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E586FCC322ADA26C0010F03E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E586FCC522ADA26C0010F03E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E586FCC822ADA26C0010F03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E586FCCA22ADA26D0010F03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E586FCCD22ADA26D0010F03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E586FCCF22ADA26D0010F03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E586FCD522ADA2A80010F03E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D85015D2414B6EBF773E9DA /* Pods_Click2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C3ABD3F4EB2FDC196D236BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25031C82A23C56AB0ED2F60A /* Pods_Click2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B99817DFF6CB6B10744A65E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1319C4E6B82A9710944C5EDA /* Pods-Click2.debug.xcconfig */,
+				10AA92A397EC2DCB1C548FA2 /* Pods-Click2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E586FCB722ADA26C0010F03E = {
 			isa = PBXGroup;
 			children = (
 				E586FCC222ADA26C0010F03E /* Click2 */,
 				E586FCC122ADA26C0010F03E /* Products */,
+				B99817DFF6CB6B10744A65E2 /* Pods */,
+				4C3ABD3F4EB2FDC196D236BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +84,12 @@
 			children = (
 				E586FCC322ADA26C0010F03E /* AppDelegate.swift */,
 				E586FCC522ADA26C0010F03E /* ViewController.swift */,
-				E586FCC722ADA26C0010F03E /* Main.storyboard */,
+				E57B969722B88B780041BCA6 /* MenuController.swift */,
 				E586FCCA22ADA26D0010F03E /* Assets.xcassets */,
 				E586FCCC22ADA26D0010F03E /* LaunchScreen.storyboard */,
 				E586FCCF22ADA26D0010F03E /* Info.plist */,
+				E586FCD522ADA2A80010F03E /* LoginViewController.swift */,
+				E57B969B22B947250041BCA6 /* Protocols.swift */,
 			);
 			path = Click2;
 			sourceTree = "<group>";
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E586FCD222ADA26D0010F03E /* Build configuration list for PBXNativeTarget "Click2" */;
 			buildPhases = (
+				35911AF5DE27326411AEC803 /* [CP] Check Pods Manifest.lock */,
 				E586FCBC22ADA26C0010F03E /* Sources */,
 				E586FCBD22ADA26C0010F03E /* Frameworks */,
 				E586FCBE22ADA26C0010F03E /* Resources */,
+				8CDA63736AA8F6CBE2D2BE37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,17 +156,57 @@
 			files = (
 				E586FCCE22ADA26D0010F03E /* LaunchScreen.storyboard in Resources */,
 				E586FCCB22ADA26D0010F03E /* Assets.xcassets in Resources */,
-				E586FCC922ADA26C0010F03E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35911AF5DE27326411AEC803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Click2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CDA63736AA8F6CBE2D2BE37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Click2/Pods-Click2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Click2/Pods-Click2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Click2/Pods-Click2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E586FCBC22ADA26C0010F03E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57B969C22B947250041BCA6 /* Protocols.swift in Sources */,
+				E57B969822B88B780041BCA6 /* MenuController.swift in Sources */,
+				E54DA70922ADCBD500D4B36B /* LoginViewController.swift in Sources */,
 				E586FCC622ADA26C0010F03E /* ViewController.swift in Sources */,
 				E586FCC422ADA26C0010F03E /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E586FCC722ADA26C0010F03E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E586FCC822ADA26C0010F03E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E586FCCC22ADA26D0010F03E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,9 +342,11 @@
 		};
 		E586FCD322ADA26D0010F03E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1319C4E6B82A9710944C5EDA /* Pods-Click2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJAV9AJJKX;
 				INFOPLIST_FILE = Click2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +361,11 @@
 		};
 		E586FCD422ADA26D0010F03E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AA92A397EC2DCB1C548FA2 /* Pods-Click2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJAV9AJJKX;
 				INFOPLIST_FILE = Click2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
